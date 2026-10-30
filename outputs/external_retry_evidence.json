@@ -1,0 +1,29 @@
+[
+  {
+    "source": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches",
+    "timestamp_utc": "2026-10-30T09:55:29.691312+00:00",
+    "http_status": 200,
+    "reason": "OK",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes": 3153476,
+    "response_body_file": "scraping_output\\live_retry_response.html",
+    "json_parse_attempted": false,
+    "data_rows_retrieved": 0,
+    "success": true,
+    "parseable_full_page_saved": true
+  },
+  {
+    "source": "spacex_api",
+    "url": "https://api.spacexdata.com/v4/launches",
+    "timestamp_utc": "2026-10-30T09:55:49.684513+00:00",
+    "http_status": 522,
+    "reason": "<none>",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes": 7259,
+    "response_body_file": "api_output\\live_retry_response.txt",
+    "json_parse_attempted": false,
+    "data_rows_retrieved": 0,
+    "success": false
+  }
+]

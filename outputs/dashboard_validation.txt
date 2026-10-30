@@ -10,5 +10,5 @@ PASS Dash route /_dash-layout: HTTP 200
 PASS Dash route /_dash-dependencies: HTTP 200
 PASS CSV: C:\Users\Brid Rane\OneDrive\Attachments\Desktop\ASSIGNMENT\TY\TY,Sem5\Coursera ds\New coursera\SpaceX_Capstone_GitHub_Upload_v2\spacex_cleaned_data.csv (90 rows)
 
-Browser capture limitation: Headless Chrome navigation to http://127.0.0.1:8050/ timed out even when the Dash server and browser ran in one elevated process boundary. The local Dash callbacks and Flask test client were verified directly; no browser screenshot was saved.
+Browser capture limitation: The actual Chrome window navigated to http://127.0.0.1:8050/ and returned ERR_CONNECTION_TIMED_OUT. Flask test-client routes and direct callback outputs pass, but the managed browser cannot reach the app listener; no Dash screenshot was saved.
 Folium browser verification: Leaflet 1.9.3 loaded; two marker icons and one marker cluster rendered; 30 basemap tiles loaded; no browser errors or failed requests. Genuine screenshot saved as screenshots/folium_map.png. The basemap uses external OpenStreetMap tiles.

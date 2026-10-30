@@ -16,3 +16,14 @@ Recall: 0.933333
 F1: 0.903226
 ROC-AUC: 0.841667
 Confusion matrix [TN, FP, FN, TP]: 6, 2, 1, 14
+
+Classification report (copied from executed outputs/classification_reports.csv):
+Model,Class,precision,recall,f1-score,support
+Logistic Regression,Unsuccessful,1.0,0.5,0.6666666666666666,8.0
+Logistic Regression,Successful,0.7894736842105263,1.0,0.8823529411764706,15.0
+Logistic Regression,macro avg,0.8947368421052632,0.75,0.7745098039215685,23.0
+Logistic Regression,weighted avg,0.862700228832952,0.8260869565217391,0.8073316283034953,23.0
+Decision Tree,Unsuccessful,0.8571428571428571,0.75,0.8,8.0
+Decision Tree,Successful,0.875,0.9333333333333333,0.9032258064516129,15.0
+Decision Tree,macro avg,0.8660714285714286,0.8416666666666667,0.8516129032258064,23.0
+Decision Tree,weighted avg,0.8687888198757764,0.8695652173913043,0.8673211781206172,23.0

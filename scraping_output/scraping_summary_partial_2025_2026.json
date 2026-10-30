@@ -1,0 +1,370 @@
+{
+  "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches",
+  "timestamp_utc": "2026-10-30T08:56:26.804603+00:00",
+  "http_status": null,
+  "source": "previously saved HTML cache",
+  "network_error": "ConnectionError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/List_of_Falcon_9_and_Falcon_Heavy_launches (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000019FC304FE00>: Failed to resolve 'en.wikipedia.org' ([Errno 11001] getaddrinfo failed)\"))",
+  "tables_found": 19,
+  "candidate_table_indices": [
+    1,
+    2
+  ],
+  "years_in_cached_or_live_capture": [
+    "2025",
+    "2026"
+  ],
+  "records_exported": 285,
+  "unique_launch_keys": 285,
+  "flight_number_range_by_row": [
+    "418",
+    "699"
+  ],
+  "excel_export": "refreshed with all extracted tables using standard-library XLSX fallback after Excel COM failed (com_error: (-2147024891, 'Access is denied.', None, None))",
+  "missing_by_column": {
+    "flight_number": 0,
+    "launch_datetime_utc": 0,
+    "source_year": 0,
+    "source_table_index": 0,
+    "booster_version": 0,
+    "launch_site": 0,
+    "payloads": 0,
+    "payload_mass_raw": 0,
+    "orbit": 0,
+    "customer": 0,
+    "launch_outcome": 0,
+    "booster_landing": 0,
+    "payload_mass_kg": 32,
+    "description": 0
+  },
+  "notes": "Launch-detail rows were selected by parsing timestamps. Rows with a flight number but no timestamp were treated as continuation descriptions and attached to the launch. Multiple payload rows for the same flight/time were aggregated. The saved capture contains only the listed year sections; it does not contain the complete historical launch list, so this CSV is a partial year extract, not a complete Falcon 9 history.",
+  "candidates": [
+    {
+      "table_index": 0,
+      "section": "Contents",
+      "year": null,
+      "shape": [
+        1,
+        1
+      ],
+      "caption": "",
+      "columns": [
+        "List of Falcon 9 and Falcon Heavy launches"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 1,
+      "section": "2025",
+      "year": "2025",
+      "shape": [
+        331,
+        10
+      ],
+      "caption": "",
+      "columns": [
+        "Flight No.",
+        "Date and time (UTC)",
+        "Version, booster[i]",
+        "Launch site",
+        "Payload[j]",
+        "Payload mass",
+        "Orbit",
+        "Customer",
+        "Launch outcome",
+        "Booster landing"
+      ],
+      "launch_history_signature_matches": 5,
+      "selected": true
+    },
+    {
+      "table_index": 2,
+      "section": "2026",
+      "year": "2026",
+      "shape": [
+        250,
+        11
+      ],
+      "caption": "",
+      "columns": [
+        "Flight No.",
+        "Date and time (UTC)",
+        "Version, booster[i]",
+        "Launch site",
+        "Payload[j]",
+        "Payload mass",
+        "Orbit",
+        "Customer",
+        "Launch outcome",
+        "Booster landing",
+        "Unnamed: 10"
+      ],
+      "launch_history_signature_matches": 5,
+      "selected": true
+    },
+    {
+      "table_index": 3,
+      "section": "2026, future",
+      "year": "2026",
+      "shape": [
+        40,
+        6
+      ],
+      "caption": "",
+      "columns": [
+        "Date and time (UTC)",
+        "Version, booster[i]",
+        "Launch site",
+        "Payload[j]",
+        "Orbit",
+        "Customer"
+      ],
+      "launch_history_signature_matches": 3,
+      "selected": false
+    },
+    {
+      "table_index": 4,
+      "section": "2027 and beyond",
+      "year": "2027",
+      "shape": [
+        114,
+        6
+      ],
+      "caption": "",
+      "columns": [
+        "Date and time (UTC)",
+        "Version, booster[i]",
+        "Launch site",
+        "Payload[j]",
+        "Orbit",
+        "Customer"
+      ],
+      "launch_history_signature_matches": 3,
+      "selected": false
+    },
+    {
+      "table_index": 5,
+      "section": "References",
+      "year": null,
+      "shape": [
+        20,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "vteSpaceX missions and payloads",
+        "vteSpaceX missions and payloads.1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 6,
+      "section": "References",
+      "year": null,
+      "shape": [
+        11,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 7,
+      "section": "References",
+      "year": null,
+      "shape": [
+        3,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 8,
+      "section": "References",
+      "year": null,
+      "shape": [
+        3,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 9,
+      "section": "References",
+      "year": null,
+      "shape": [
+        25,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "vteSpaceX",
+        "vteSpaceX.1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 10,
+      "section": "References",
+      "year": null,
+      "shape": [
+        4,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 11,
+      "section": "References",
+      "year": null,
+      "shape": [
+        2,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 12,
+      "section": "References",
+      "year": null,
+      "shape": [
+        2,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 13,
+      "section": "References",
+      "year": null,
+      "shape": [
+        22,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "vteSpaceflight lists and timelines",
+        "vteSpaceflight lists and timelines.1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 14,
+      "section": "References",
+      "year": null,
+      "shape": [
+        8,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 15,
+      "section": "References",
+      "year": null,
+      "shape": [
+        4,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 16,
+      "section": "References",
+      "year": null,
+      "shape": [
+        1,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 17,
+      "section": "References",
+      "year": null,
+      "shape": [
+        1,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    },
+    {
+      "table_index": 18,
+      "section": "References",
+      "year": null,
+      "shape": [
+        1,
+        2
+      ],
+      "caption": "",
+      "columns": [
+        "0",
+        "1"
+      ],
+      "launch_history_signature_matches": 0,
+      "selected": false
+    }
+  ]
+}
