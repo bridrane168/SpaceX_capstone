@@ -1,0 +1,8 @@
+{
+  "url": "https://api.spacexdata.com/v4/launches",
+  "timestamp_utc": "2026-10-30T08:19:31.161587+00:00",
+  "http_status": null,
+  "attempts": 2,
+  "success": false,
+  "error": "ConnectionError: HTTPSConnectionPool(host='api.spacexdata.com', port=443): Max retries exceeded with url: /v4/launches (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002B60A9F6390>: Failed to resolve 'api.spacexdata.com' ([Errno 11001] getaddrinfo failed)\"))"
+}

@@ -1,0 +1,7 @@
+# Local runtime and temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+tmp/
+backups/
+SpaceX_Capstone_Final_Report.backup.pdf

@@ -1,0 +1,122 @@
+{
+  "source": "spacex_cleaned_data.csv",
+  "records": 90,
+  "launch_success_rate": 0.6666666666666666,
+  "by_orbit": [
+    {
+      "Orbit": "SSO",
+      "launches": 5,
+      "success_rate": 1.0,
+      "mean_payload_kg": 2060.0
+    },
+    {
+      "Orbit": "ES-L1",
+      "launches": 1,
+      "success_rate": 1.0,
+      "mean_payload_kg": 570.0
+    },
+    {
+      "Orbit": "GEO",
+      "launches": 1,
+      "success_rate": 1.0,
+      "mean_payload_kg": 6104.959411764706
+    },
+    {
+      "Orbit": "HEO",
+      "launches": 1,
+      "success_rate": 1.0,
+      "mean_payload_kg": 350.0
+    },
+    {
+      "Orbit": "VLEO",
+      "launches": 14,
+      "success_rate": 0.8571428571428571,
+      "mean_payload_kg": 15315.714285714286
+    },
+    {
+      "Orbit": "LEO",
+      "launches": 7,
+      "success_rate": 0.7142857142857143,
+      "mean_payload_kg": 3882.8397478991596
+    },
+    {
+      "Orbit": "PO",
+      "launches": 9,
+      "success_rate": 0.6666666666666666,
+      "mean_payload_kg": 7583.666666666667
+    },
+    {
+      "Orbit": "MEO",
+      "launches": 3,
+      "success_rate": 0.6666666666666666,
+      "mean_payload_kg": 3987.0
+    },
+    {
+      "Orbit": "ISS",
+      "launches": 21,
+      "success_rate": 0.6190476190476191,
+      "mean_payload_kg": 3279.9380952380952
+    },
+    {
+      "Orbit": "GTO",
+      "launches": 27,
+      "success_rate": 0.5185185185185185,
+      "mean_payload_kg": 5011.9944444444445
+    },
+    {
+      "Orbit": "SO",
+      "launches": 1,
+      "success_rate": 0.0,
+      "mean_payload_kg": 6104.959411764706
+    }
+  ],
+  "by_booster_reused": [
+    {
+      "Reused": false,
+      "launches": 53,
+      "success_rate": 0.5849056603773585,
+      "mean_payload_kg": 4277.903362930078
+    },
+    {
+      "Reused": true,
+      "launches": 37,
+      "success_rate": 0.7837837837837838,
+      "mean_payload_kg": 8722.093751987282
+    }
+  ],
+  "by_launch_site": [
+    {
+      "LaunchSite": "CCAFS SLC 40",
+      "launches": 55,
+      "success_rate": 0.6
+    },
+    {
+      "LaunchSite": "KSC LC 39A",
+      "launches": 22,
+      "success_rate": 0.7727272727272727
+    },
+    {
+      "LaunchSite": "VAFB SLC 4E",
+      "launches": 13,
+      "success_rate": 0.7692307692307693
+    }
+  ],
+  "by_flight_group": [
+    {
+      "flight_group": "1-30",
+      "launches": 30,
+      "success_rate": 0.43333333333333335
+    },
+    {
+      "flight_group": "31-60",
+      "launches": 30,
+      "success_rate": 0.7333333333333333
+    },
+    {
+      "flight_group": "61-90",
+      "launches": 30,
+      "success_rate": 0.8333333333333334
+    }
+  ],
+  "interpretation": "These are descriptive rates from a 90-record dataset; groups have different sample sizes and the comparisons do not establish causal effects."
+}

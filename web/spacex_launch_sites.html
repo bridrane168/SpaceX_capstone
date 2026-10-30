@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="vendor/leaflet/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eea2342972186115b9dae81f38458182 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="vendor/leaflet/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="vendor/leaflet/MarkerCluster.css"/>
+    <link rel="stylesheet" href="vendor/leaflet/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eea2342972186115b9dae81f38458182" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eea2342972186115b9dae81f38458182 = L.map(
+                "map_eea2342972186115b9dae81f38458182",
+                {
+                    center: [29.44996262777778, -86.36647705111112],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf1766f0e55b126f377ec9a44c3c869c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_bf1766f0e55b126f377ec9a44c3c869c.addTo(map_eea2342972186115b9dae81f38458182);
+        
+    
+            var marker_cluster_9f734b8610f67efbf608b96f843f6ab9 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_069a206ac394a8d735d7a9888c80955a = L.marker(
+                [28.5618571, -80.577366],
+                {
+}
+            ).addTo(marker_cluster_9f734b8610f67efbf608b96f843f6ab9);
+        
+    
+        var popup_252bbdb0f0effc2421de3cfc5418130e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfad615847f490036e6dc39525a8b962 = $(`<div id="html_dfad615847f490036e6dc39525a8b962" style="width: 100.0%; height: 100.0%;">             <b>Launch Site:</b> CCAFS SLC 40<br>             <b>Total Launches:</b> 55<br>             <b>Success Rate:</b> 60.00%             </div>`)[0];
+                popup_252bbdb0f0effc2421de3cfc5418130e.setContent(html_dfad615847f490036e6dc39525a8b962);
+            
+        
+
+        marker_069a206ac394a8d735d7a9888c80955a.bindPopup(popup_252bbdb0f0effc2421de3cfc5418130e)
+        ;
+
+        
+    
+    
+            marker_069a206ac394a8d735d7a9888c80955a.bindTooltip(
+                `<div>
+                     CCAFS SLC 40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4287e96a54e4c51edeadc6a2b85eb401 = L.marker(
+                [28.608058500000002, -80.6039558],
+                {
+}
+            ).addTo(marker_cluster_9f734b8610f67efbf608b96f843f6ab9);
+        
+    
+        var popup_f6e16ed0bae1fbcd821f38744613e4f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80e10ec43badca584795aee1fbd210a3 = $(`<div id="html_80e10ec43badca584795aee1fbd210a3" style="width: 100.0%; height: 100.0%;">             <b>Launch Site:</b> KSC LC 39A<br>             <b>Total Launches:</b> 22<br>             <b>Success Rate:</b> 77.27%             </div>`)[0];
+                popup_f6e16ed0bae1fbcd821f38744613e4f1.setContent(html_80e10ec43badca584795aee1fbd210a3);
+            
+        
+
+        marker_4287e96a54e4c51edeadc6a2b85eb401.bindPopup(popup_f6e16ed0bae1fbcd821f38744613e4f1)
+        ;
+
+        
+    
+    
+            marker_4287e96a54e4c51edeadc6a2b85eb401.bindTooltip(
+                `<div>
+                     KSC LC 39A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b51b84ad36b5680c32b5c64f1caa875 = L.marker(
+                [34.632093, -120.610829],
+                {
+}
+            ).addTo(marker_cluster_9f734b8610f67efbf608b96f843f6ab9);
+        
+    
+        var popup_62b9ba787c471e99f490cda84808541a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1df7427638341d9c987f9142d65f89b5 = $(`<div id="html_1df7427638341d9c987f9142d65f89b5" style="width: 100.0%; height: 100.0%;">             <b>Launch Site:</b> VAFB SLC 4E<br>             <b>Total Launches:</b> 13<br>             <b>Success Rate:</b> 76.92%             </div>`)[0];
+                popup_62b9ba787c471e99f490cda84808541a.setContent(html_1df7427638341d9c987f9142d65f89b5);
+            
+        
+
+        marker_9b51b84ad36b5680c32b5c64f1caa875.bindPopup(popup_62b9ba787c471e99f490cda84808541a)
+        ;
+
+        
+    
+    
+            marker_9b51b84ad36b5680c32b5c64f1caa875.bindTooltip(
+                `<div>
+                     VAFB SLC 4E
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_9f734b8610f67efbf608b96f843f6ab9.addTo(map_eea2342972186115b9dae81f38458182);
+        
+</script>
+</html>

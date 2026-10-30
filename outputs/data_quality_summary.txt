@@ -1,0 +1,5 @@
+Rows: 90
+Columns: 18
+Exact duplicate rows: 0
+Class counts: {0: 30, 1: 60}
+Missing values: 26 (all in LandingPad: 26)

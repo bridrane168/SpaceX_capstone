@@ -1,0 +1,1 @@
+SELECT Class, COUNT(PayloadMass) AS records_with_payload, ROUND(AVG(PayloadMass),2) AS mean_payload_kg, ROUND(MIN(PayloadMass),2) AS min_payload_kg, ROUND(MAX(PayloadMass),2) AS max_payload_kg FROM spacex GROUP BY Class ORDER BY Class;

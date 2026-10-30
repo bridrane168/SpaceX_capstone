@@ -1,0 +1,18 @@
+Rows: 90 | Train: 67 | Test: 23 | Stratified | random_state=42
+Features: FlightNumber, PayloadMass, Flights, GridFins, Reused, Legs, Block, ReusedCount, Orbit, LaunchSite, Serial
+
+=== Logistic Regression ===
+Accuracy: 0.826087
+Precision: 0.789474
+Recall: 1.000000
+F1: 0.882353
+ROC-AUC: 0.850000
+Confusion matrix [TN, FP, FN, TP]: 4, 4, 0, 15
+
+=== Decision Tree ===
+Accuracy: 0.869565
+Precision: 0.875000
+Recall: 0.933333
+F1: 0.903226
+ROC-AUC: 0.841667
+Confusion matrix [TN, FP, FN, TP]: 6, 2, 1, 14

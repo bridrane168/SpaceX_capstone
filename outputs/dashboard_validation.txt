@@ -1,0 +1,14 @@
+Dash runtime validation (executed 2026-10-30)
+Dash version: 4.5.0
+
+PASS site='All' orbit='All': KPIs=['90', '60', '30', '66.7%'], charts=5
+PASS site='KSC LC 39A' orbit='All': KPIs=['22', '17', '5', '77.3%'], charts=5
+PASS site='All' orbit='GTO': KPIs=['27', '14', '13', '51.9%'], charts=5
+PASS site='KSC LC 39A' orbit='GEO': KPIs=['0', '0', '0', '0.0%'], charts=5
+PASS Dash route /: HTTP 200
+PASS Dash route /_dash-layout: HTTP 200
+PASS Dash route /_dash-dependencies: HTTP 200
+PASS CSV: C:\Users\Brid Rane\OneDrive\Attachments\Desktop\ASSIGNMENT\TY\TY,Sem5\Coursera ds\New coursera\SpaceX_Capstone_GitHub_Upload_v2\spacex_cleaned_data.csv (90 rows)
+
+Browser capture limitation: Headless Chrome navigation to http://127.0.0.1:8050/ timed out even when the Dash server and browser ran in one elevated process boundary. The local Dash callbacks and Flask test client were verified directly; no browser screenshot was saved.
+Folium browser verification: Leaflet 1.9.3 loaded; two marker icons and one marker cluster rendered; 30 basemap tiles loaded; no browser errors or failed requests. Genuine screenshot saved as screenshots/folium_map.png. The basemap uses external OpenStreetMap tiles.
